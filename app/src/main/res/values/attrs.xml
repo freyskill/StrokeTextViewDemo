@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StrokeTextView">
+        <attr name="stv_strokeTextColor" format="color|reference"/>
+        <attr name="stv_strokeNumColor" format="color|reference"/>
+        <attr name="stv_strokeColor" format="color|reference"/>
+        <attr name="stv_strokeWidth" format="integer|reference"/>
+        <attr name="stv_strokeIs" format="boolean"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1e3bb"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <top.keepempty.stvd.StrokeTextView
+        android:id="@+id/strok_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+        android:text="五年级1班->默认"
+        android:textSize="25dp"/>
+
+    <top.keepempty.stvd.StrokeTextView
+        android:id="@+id/strok_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="五年级1班->文字+字体-描边"
+        android:textColor="@color/text_color"
+        app:stv_strokeIs="true"
+        app:stv_strokeColor="@color/white"/>
+
+    <top.keepempty.stvd.StrokeTextView
+        android:id="@+id/strok_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="五年级1班->文字+字体"
+        android:textColor="@color/text_color"/>
+
+
+    <top.keepempty.stvd.StrokeTextView
+        android:id="@+id/strok_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="五年级1班->默认字体-描边"
+        android:textColor="@color/text_color"
+        app:stv_strokeIs="true"
+        app:stv_strokeColor="@color/white"/>
+
+
+    <top.keepempty.stvd.StrokeTextView
+        android:id="@+id/strok_tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="五年级1班->文字+字体-数字+字体-描边"
+        android:textColor="@color/white"
+        app:stv_strokeIs="true"
+        app:stv_strokeColor="@color/text_stroke_color"/>
+
+
+    <top.keepempty.stvd.StrokeTextView
+        android:id="@+id/strok_tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="数量：100 ->设置数字颜色"
+        android:textColor="@color/white"
+        app:stv_strokeIs="true"
+        app:stv_strokeColor="@color/text_stroke_color"
+        app:stv_strokeNumColor="@color/colorAccent"/>
+
+</LinearLayout>
