@@ -6,10 +6,7 @@ import android.text.TextPaint;
 import android.text.style.TypefaceSpan;
 
 /**
- * 说明：
- * 作者：fu.xie
- * 版本：
- * 创建日期：2019/4/23 17:42
+ * 自定义TypefaceSpan，将默认字体改为自定义的字体
  */
 public class StrokeTypefaceSpan extends TypefaceSpan {
     private final Typeface newType;
